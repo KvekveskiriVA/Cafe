@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#63a2ae"
+    android:background="#fff"
     tools:context=".MainActivity">
 
     <ImageView
@@ -58,6 +58,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#386498"
-        android:text="@string/sign_in_button" />
+        android:backgroundTint="#fee93d"
+        android:text="@string/sign_in_button"
+        android:textColor="@color/black"/>
 </LinearLayout>
